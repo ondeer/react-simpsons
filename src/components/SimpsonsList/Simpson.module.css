@@ -1,0 +1,110 @@
+
+
+.avatar img {
+  width: 2rem;
+  height: 3.5rem;
+}
+
+.avatar h4{
+  display: inline;
+  position: absolute;
+  margin-left: 4rem;
+}
+
+.avatar:hover{
+  transform: scale(1.05);
+}
+
+.flex-div{
+display: flex;
+align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 2.5rem;
+}
+li {
+  
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.delete-icon{
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.delete-icon:hover{
+  color: red;
+}
+
+.list-center {
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+}
+
+.loading div {
+  margin-bottom: 1rem;
+  font-size: 6rem;
+}
+
+.error p {
+  color: rgb(46 39 120);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.error img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.addButton{
+  font-size: 2rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  margin-left: calc(50% - 1.5rem);
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .list-center {
+    width: 95%;
+    
+  }
+}
+
+@media (min-width: 378px) and (max-width: 480px) {
+  .list-center {
+    width: 95%;
+    font-size: 0.75rem;
+
+  }
+}
+
+@media (min-width: 1px) and (max-width: 377px) {
+  .list-center {
+    width: 95%;
+    font-size: 0.53rem;
+  }
+
+  .loading div {
+    font-size: 4rem;
+  }
+  
+}
+

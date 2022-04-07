@@ -1,0 +1,89 @@
+.modal-content {
+    
+    margin: 5% auto 2% auto;
+    width: 60%;
+  }
+  
+  .inputform {
+    display: flex;
+    width: 5rem;
+    margin-left: calc(50% - 3.75rem);
+  }
+  
+  input[type="text"], input[type="url"],textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+  }
+  
+  textarea { resize: none; }
+  
+  button:disabled,
+  button:disabled:hover,
+  button:disabled:active {
+    background-image:none;
+    background-color: #ccc;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    background-color: #25aae1;
+    color: white;
+    padding: 14px 20px;
+    margin: 1rem auto;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 0.5rem;
+    background-size: 300% 100%;
+    transition: all .4s ease-in-out;
+  }
+  
+  button:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+  }
+  
+  .imageP {
+    font-size: 1.75rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .invalid textarea {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+  }
+
+  .invalid input {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+  }
+  
+  .error-text {
+    color: #b40e0e;
+    margin: 0 0 1rem 0;
+    text-align: center;
+  }
+  
+  .add-center {
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #eee;
+}
+
+@media (max-width: 768px ) {
+  .add-center {
+    width: 95%;
+  }
+}

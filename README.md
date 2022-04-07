@@ -1,2 +1,5 @@
 # react-simpsons
- react-simpsons (react) and responsive
+ 
+Run <b>npm install</b> in the extracted folder
+
+Run <b>npm start</b> to start the development server.
