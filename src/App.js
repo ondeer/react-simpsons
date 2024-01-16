@@ -8,8 +8,6 @@ import PageNotFound from "./components/PageNotFound/PageNotFound";
 
 const App =() => {
  
-
-  
     const [getData, setGetData] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [isError, setIsError] = useState(null);
